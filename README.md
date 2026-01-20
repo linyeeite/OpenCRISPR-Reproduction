@@ -30,6 +30,7 @@ pip install torch transformers seaborn matplotlib
 **2. 模型权重下载** 
 由于版权和文件大小限制，请自行从 Hugging Face 下载 ProGen2-small 权重：
 https://huggingface.co/hugohrban/progen2-small
+
 **3. 运行推理**
 ```bash
 python src/inference.py
