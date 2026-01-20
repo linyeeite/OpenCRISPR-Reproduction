@@ -1,4 +1,5 @@
 OpenCRISPR-Reproduction 🧬
+
 📖 项目简介
 本项目是对 ProGen2 蛋白质语言模型在 CRISPR-Cas9 系统中应用的工程复现与机理研究。 基于 Salesforce 的 ProGen2-Small 架构，本项目实现了从序列生成到注意力机制可视化的完整流程，重点验证了 Transformer 架构在生物序列中的长距离依赖捕捉能力。
 
