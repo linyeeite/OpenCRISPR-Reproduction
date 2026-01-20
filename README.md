@@ -20,32 +20,21 @@
 
 ---
 
-### 📊 结果展示
-
-**Self-Attention 机制可视化：**
-
-![Attention Map](assets/multihead_attention.png)
-
-> *图注：展示了 Head 2 捕捉局部依赖（形成 α-螺旋的连续性），展示了 Head 3 捕捉起始位点的全局依赖。*
-
----
 
 ### 🚀 快速开始 (Quick Start)
 
 **1. 环境配置**
 ```bash
 pip install torch transformers seaborn matplotlib
-2. 模型权重下载 由于版权和文件大小限制，请自行从 Hugging Face 下载 ProGen2-small 权重：
-
-Hugging Face Link
-
-将 pytorch_model.bin, config.json 等文件放入 progen/progen2/ 目录。
-
-3. 运行推理
-
-Bash
+```
+**2. 模型权重下载** 
+由于版权和文件大小限制，请自行从 Hugging Face 下载 ProGen2-small 权重：
+https://huggingface.co/hugohrban/progen2-small
+**3. 运行推理**
+```bash
 python src/inference.py
-4. 运行可视化
-
-Bash
+```
+**4. 运行可视化**
+```bash
 python src/visualize.py
+```
