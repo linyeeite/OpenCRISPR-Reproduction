@@ -24,9 +24,9 @@
 
 **Self-Attention 机制可视化：**
 
-![Attention Map](assets/multihead_attention_analysis.png)
+![Attention Map](assets/multihead_attention.png)
 
-> *图注：左图展示了 Head 2 捕捉局部依赖（形成 α-螺旋的连续性），右图展示了 Head 3 捕捉起始位点的全局依赖。*
+> *图注：展示了 Head 2 捕捉局部依赖（形成 α-螺旋的连续性），展示了 Head 3 捕捉起始位点的全局依赖。*
 
 ---
 
