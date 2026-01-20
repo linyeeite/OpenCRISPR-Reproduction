@@ -33,7 +33,7 @@
 ### 🚀 快速开始 (Quick Start)
 
 **1. 环境配置**
-bash
+```bash
 pip install torch transformers seaborn matplotlib
 2. 模型权重下载 由于版权和文件大小限制，请自行从 Hugging Face 下载 ProGen2-small 权重：
 
